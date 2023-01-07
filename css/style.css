@@ -140,10 +140,59 @@ p {
     padding-left: 60px;
 }
 
-.call-now-content h3 {
+.call-now-content .section-title {
     width: 460px;
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
+}
+
+/* Footer  */
+.footer {
+    margin-top: 160px;
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 100px;
+}
+
+.future {
+    width: 485px;
+}
+
+.future .section-title {
+    color: #F8F8F8;
+}
+
+.future .section-description {
+    color: #FFFFFF;
+}
+
+.icon-holder {
+    display: flex;
+    gap: 15px;
+}
+
+.subscribe .section-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.subscribe .primary-btn{
+    margin-top: 20px;
+}
+
+.input-subscribe{
+
+    padding: 21px 158px 21px 21px;
+    border: 0;
+    color: #F8F8F8;
+    background: transparent;
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+
+    
 }
