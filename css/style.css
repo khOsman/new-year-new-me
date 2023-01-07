@@ -1,0 +1,149 @@
+/* Common styles */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    color: #444343;
+}
+
+.primary-btn {
+    padding: 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.secondary-btn {
+    padding: 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.check {
+    color: #16D887;
+}
+
+.cross {
+    color: #F15B22;
+}
+
+/* Header  */
+.header {
+    min-width: 1600px;
+    min-height: 808px;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-content {
+    margin-right: 230px;
+    width: 500px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* previous year failure styles */
+.previous-year {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.pre-failure {
+    width: 416px;
+}
+
+.pre-success {
+    width: 416px;
+    text-align: right;
+}
+
+/* My plan styles */
+.my-plan {
+    margin-top: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.plan-content {
+    width: 800px;
+}
+
+.plans {
+    margin-top: 30px;
+    display: flex;
+    gap: 130px;
+}
+
+.plan h4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* Call now styles */
+.call-now-section {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-now {
+    width: 1140px;
+    height: 300px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.call-now-content {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.call-now-content h3 {
+    width: 460px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
