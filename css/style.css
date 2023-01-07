@@ -95,6 +95,7 @@ p {
     text-align: right;
 }
 
+
 /* My plan styles */
 .my-plan {
     margin-top: 160px;
@@ -118,6 +119,39 @@ p {
 .plan h4 {
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+/* Travel  */
+
+.travel {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.travel-blog {
+    text-align: center;
+    width: 816px;
+}
+
+.travel-img{
+    width: 200px;
+    height:200px;
+}
+
+.travel-images{
+    display: flex;
+    gap: 20px;
+}
+
+.travel-box{
+    text-align: center;
+    background: #F8F8F8;
+    width: 280px;
+    padding: 30px 20px;
 }
 
 /* Call now styles */
